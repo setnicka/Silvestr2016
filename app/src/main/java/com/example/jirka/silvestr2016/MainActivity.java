@@ -149,11 +149,11 @@ public class MainActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.statusLampy)).setText(Integer.toString(lampy));
 
         ((TextView)findViewById(R.id.ucastnikuBozich)).setText(Integer.toString(ucastnikuBozich));
-        ((TextView)findViewById(R.id.ucastnikuBozichDostupno)).setText(Double.toString(Math.round(zajemBozi() * 100) / 100.0));
+        ((TextView)findViewById(R.id.ucastnikuBozichDostupno)).setText(Double.toString(Math.round(zajemBozi() * 10) / 10.0));
         ((TextView)findViewById(R.id.ucastnikuDocela)).setText(Integer.toString(ucastnikuDocela));
-        ((TextView)findViewById(R.id.ucastnikuDocelaDostupno)).setText(Double.toString(Math.round(zajemDocela() * 100) / 100.0));
+        ((TextView)findViewById(R.id.ucastnikuDocelaDostupno)).setText(Double.toString(Math.round(zajemDocela() * 10) / 10.0));
         ((TextView)findViewById(R.id.ucastnikuOzrat)).setText(Integer.toString(ucastnikuOzrat));
-        ((TextView)findViewById(R.id.ucastnikuOzratDostupno)).setText(Double.toString(Math.round(zajemOzrat() * 100) / 100.0));
+        ((TextView)findViewById(R.id.ucastnikuOzratDostupno)).setText(Double.toString(Math.round(zajemOzrat() * 10) / 10.0));
 
         ((TextView)findViewById(R.id.statusKapacita)).setText(Integer.toString(pocetUcastniku())+"/"+Integer.toString(kapacitaObjektu));
         ((TextView)findViewById(R.id.statusBodu)).setText(Double.toString(bodu()));
